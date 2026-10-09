@@ -1,0 +1,15 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local tooling
+node_modules/
+.venv/
+*.log
+
+# Generated deployment output
+dist/
+
+# Editor settings
+.vscode/
+.idea/

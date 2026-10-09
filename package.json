@@ -1,0 +1,11 @@
+{
+  "name": "atlas-style",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ATLAS / STYLE — international fashion and art-inspired editorial website",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "build": "rm -rf dist && mkdir -p dist/assets && cp index.html styles.css script.js dist/ && cp -R assets/. dist/assets/",
+    "preview": "python3 -m http.server 4173 --directory dist --bind 0.0.0.0"
+  }
+}

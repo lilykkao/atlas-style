@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ATLAS / STYLE — 以時尚為主、以藝術為靈感的國際風格誌。" />
+  <title>ATLAS / STYLE — International Style Journal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="ATLAS STYLE 首頁"><span class="logo-dot"></span>ATLAS <i>/</i> STYLE</a>
+    <nav class="main-nav" aria-label="主要導覽">
+      <a href="#stories"><span data-i18n="navStories">Stories</span> <small>01</small></a>
+      <a href="#index"><span data-i18n="navIndex">Style Index</span> <small>02</small></a>
+      <a href="#gallery"><span data-i18n="navGallery">Gallery</span> <small>03</small></a>
+      <a href="#notes"><span data-i18n="navNotes">Art Notes</span> <small>04</small></a>
+    </nav>
+    <div class="header-tools">
+      <label class="language-switcher" for="language-select"><span class="sr-only" data-i18n="languageLabel">Language</span><span class="language-mark">A / 文</span><select id="language-select" aria-label="Language"><option value="zh-Hant">繁中</option><option value="en">EN</option><option value="ko">한국어</option></select></label>
+      <button class="menu-button" type="button" aria-label="開啟選單" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-nav" aria-hidden="true">
+    <a href="#stories"><span data-i18n="navStories">Stories</span> / <span data-i18n="mobileStories">故事</span></a>
+    <a href="#index"><span data-i18n="navIndex">Style Index</span> / <span data-i18n="mobileIndex">風格索引</span></a>
+    <a href="#gallery"><span data-i18n="navGallery">Gallery</span> / <span data-i18n="mobileGallery">藝廊展覽</span></a>
+    <a href="#notes"><span data-i18n="navNotes">Art Notes</span> / <span data-i18n="mobileNotes">藝術筆記</span></a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-vertical"><span data-i18n="heroVertical">風格無國界</span> <span data-i18n="heroVerticalSub">Style has no passport</span></div>
+      <div class="hero-copy">
+        <p class="kicker"><span data-i18n="heroKicker">Issue No. 05</span> <span>—</span> <span data-i18n="heroKickerSub">The Art of Getting Dressed</span></p>
+        <h1><span data-i18n="heroTitle1">穿著，</span><br /><em data-i18n="heroTitle2">是一種觀看。</em></h1>
+        <p class="hero-intro" data-i18n="heroIntro">一份以時尚為主、以藝術為靈感的國際風格誌。從首爾到巴黎、拉各斯到台北，觀察我們如何穿衣，也如何看世界。</p>
+        <a class="round-link" href="#stories"><span data-i18n="heroCta">Read<br />the issue</span><b>↘</b></a>
+      </div>
+      <div class="hero-image-wrap"><img src="assets/hero-global.jpg" alt="" data-i18n-alt="heroAlt" /><div class="image-credit"><span data-i18n="heroCredit">Cover story / Across the frame</span><span>01 / 05</span></div></div>
+      <div class="hero-side">A / S<br /><span data-i18n="heroSide">GLOBAL STYLE ATLAS</span></div>
+    </section>
+
+    <section id="stories" class="editorial-intro section">
+      <div class="section-label">01 <span>/</span> <span data-i18n="editorLabel">Editor's letter</span></div>
+      <div class="intro-content"><p class="kicker" data-i18n="editorKicker">This is not a trend report.</p><h2><span data-i18n="editorTitle1">我們談的不是「流行」，</span><br /><em data-i18n="editorTitle2">而是風格為何有生命。</em></h2><div class="intro-bottom"><p data-i18n="editorBody">一件外套可以來自首爾的剪裁語彙，一個色彩可能源於拉各斯的街景，一幅畫則讓我們重新理解身體與空間的關係。</p><a class="under-link" href="#index"><span data-i18n="editorLink">閱讀本期索引</span> <span>↓</span></a></div></div>
+    </section>
+
+    <section id="index" class="lookbook section">
+      <div class="section-head"><div><p class="kicker" data-i18n="indexKicker">Style Index / 01—03</p><h2 data-i18n="indexTitle">本期風格索引</h2></div><p class="section-note" data-i18n="indexNote">不是複製一種風格。<br />是找到自己的觀看方式。</p></div>
+      <div class="look-grid">
+        <article class="look-card look-card-tall"><div class="look-image"><img src="assets/style-index.jpg" alt="" data-i18n-alt="lookAlt" /><span>Index 01</span></div><div class="look-meta"><h3 data-i18n="look1Title">Material Memory</h3><p data-i18n="look1Desc">材質也有自己的地理。</p></div></article>
+        <article class="look-card look-card-offset"><div class="look-image"><img src="assets/painting-note.jpg" alt="" data-i18n-alt="paintingAlt" /><span>Art Note 02</span></div><div class="look-meta"><h3 data-i18n="look2Title">Colour as Attitude</h3><p data-i18n="look2Desc">一個色彩，可以改變整個姿態。</p></div></article>
+        <div class="look-index"><span>03</span><i></i><p data-i18n="indexSide">Seoul / Paris / Lagos<br />Taipei / Everywhere</p></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section section">
+      <div class="section-head"><div><p class="kicker" data-i18n="galleryKicker">Gallery / Curatorial Column</p><h2 data-i18n="galleryTitle">藝廊展覽</h2></div><p class="section-note" data-i18n="galleryNote">把服裝放進展覽空間。<br />讓觀看成為一種編輯。</p></div>
+      <div class="gallery-filters" role="toolbar" aria-label="展覽篩選"><button class="filter-button active" data-filter="all" data-i18n="filterAll">All</button><button class="filter-button" data-filter="painting" data-i18n="filterPainting">Painting</button><button class="filter-button" data-filter="fashion" data-i18n="filterFashion">Fashion</button><button class="filter-button" data-filter="space" data-i18n="filterSpace">Space</button></div>
+      <div class="exhibition-grid">
+        <button class="exhibition-card exhibition-card-large" data-type="painting" data-title-key="exhibit1Title" data-description-key="exhibit1Desc" data-detail-key="exhibit1Detail"><span class="exhibition-art art-one"></span><span class="exhibition-info"><small>EXHIBITION 01 / 2026</small><strong data-i18n="exhibit1Title">White Noise, Soft Edges</strong><em data-i18n="exhibit1Desc">一場關於白色、留白與身體輪廓的群展。</em></span></button>
+        <button class="exhibition-card" data-type="fashion" data-title-key="exhibit2Title" data-description-key="exhibit2Desc" data-detail-key="exhibit2Detail"><span class="exhibition-art art-two"></span><span class="exhibition-info"><small>CURATORIAL NOTE 02</small><strong data-i18n="exhibit2Title">The Garment as Object</strong><em data-i18n="exhibit2Desc">當衣服不再只是被穿著，而成為空間中的物件。</em></span></button>
+        <button class="exhibition-card" data-type="space" data-title-key="exhibit3Title" data-description-key="exhibit3Desc" data-detail-key="exhibit3Detail"><span class="exhibition-art art-three"></span><span class="exhibition-info"><small>ROOM 03 / SEOUL—PARIS</small><strong data-i18n="exhibit3Title">A Room for Looking</strong><em data-i18n="exhibit3Desc">兩座城市之間，一個留給慢觀看的房間。</em></span></button>
+      </div>
+    </section>
+
+    <section class="quote section"><div class="quote-mark">“</div><blockquote><span data-i18n="quote1">好的穿搭，</span><br /><em data-i18n="quote2">讓你看見自己以外的世界。</em></blockquote><p class="quote-credit" data-i18n="quoteCredit">— A note on clothes, colour & looking</p></section>
+
+    <section id="notes" class="notes section"><div class="section-head"><div><p class="kicker" data-i18n="notesKicker">Notes / Around the world</p><h2 data-i18n="notesTitle">編輯筆記</h2></div><a class="under-link" href="#newsletter"><span data-i18n="notesLink">訂閱每月信件</span> <span>↗</span></a></div><div class="note-list"><a class="note-row" href="#newsletter"><span>01 / SEOUL · 2026.03.18</span><strong data-i18n="note1">當韓系極簡遇到北非色彩：一件外套的兩種觀看。</strong><em>→</em></a><a class="note-row" href="#newsletter"><span>02 / PARIS · 2026.03.04</span><strong data-i18n="note2">為什麼畫家的工作室，總是比秀場更懂得穿衣？</strong><em>→</em></a><a class="note-row" href="#newsletter"><span>03 / TAIPEI · 2026.02.21</span><strong data-i18n="note3">灰色不是中立：一份關於低彩度與性格的觀察。</strong><em>→</em></a></div></section>
+
+    <section id="newsletter" class="newsletter section"><div><p class="kicker" data-i18n="newsletterKicker">The monthly atlas</p><h2><span data-i18n="newsletterTitle1">留一點位置，</span><br /><em data-i18n="newsletterTitle2">給下一個靈感。</em></h2></div><form class="signup-form"><label for="email" data-i18n="emailLabel">你的 email</label><div><input id="email" type="email" placeholder="hello@example.com" data-i18n-placeholder="emailPlaceholder" required /><button type="submit"><span data-i18n="subscribe">加入信件</span> <span>↗</span></button></div><small data-i18n="newsletterSmall">每月一封。關於衣服、藝術、城市與值得慢慢看的事。</small></form></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><a class="logo" href="#top"><span class="logo-dot"></span>ATLAS <i>/</i> STYLE</a><p data-i18n="footerTag">衣服、藝術與城市觀看的國際編輯誌。</p><div class="footer-links"><a href="#stories">Instagram ↗</a><a href="#stories" data-i18n="footerAbout">About ↗</a></div></div><div class="footer-bottom"><span>© 2026 ATLAS / STYLE</span><span>Seoul / Paris / Lagos / Taipei</span><span data-i18n="footerMade">Made with a little curiosity.</span></div></footer>
+
+  <dialog class="exhibition-modal" id="exhibition-modal"><button class="modal-close" type="button" aria-label="Close">×</button><p class="kicker" data-i18n="modalKicker">Curatorial column</p><h2 id="modal-title"></h2><p class="modal-description" id="modal-description"></p><div class="modal-detail" id="modal-detail"></div><div class="modal-meta"><span data-i18n="modalMeta">ATLAS / STYLE · EXHIBITION FILE</span><span>↗</span></div></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
